@@ -7,10 +7,12 @@ import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { useContact } from "@/app/_context/contact-context";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { openContact } = useContact();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,7 +68,10 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="bg-[#b58905] hover:bg-[#9a7504] text-white rounded-full px-6">
+          <Button
+            onClick={openContact}
+            className="bg-[#b58905] hover:bg-[#9a7504] text-white rounded-full px-6"
+          >
             Contact me
           </Button>
         </div>
@@ -93,7 +98,13 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="w-full bg-[#b58905] hover:bg-[#9a7504] text-white rounded-full">
+          <Button
+            onClick={() => {
+              setIsOpen(false);
+              openContact();
+            }}
+            className="w-full bg-[#b58905] hover:bg-[#9a7504] text-white rounded-full"
+          >
             Contact me
           </Button>
         </div>
