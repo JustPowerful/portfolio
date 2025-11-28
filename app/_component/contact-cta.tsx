@@ -5,7 +5,7 @@ import Image from "next/image";
 import thumbnailImg from "@/assets/handshake.png";
 import { Button } from "@/components/ui/button";
 import { useContact } from "@/app/_context/contact-context";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Github, Instagram, Linkedin } from "lucide-react";
 
 const ContactCTA = () => {
   const { openContact } = useContact();
@@ -15,7 +15,7 @@ const ContactCTA = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left Side - Image */}
-          <div className="w-full md:w-1/2 flex justify-center md:justify-center">
+          <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-10">
             <div className="relative bg-white p-3 pb-12 shadow-xl -rotate-3 transform transition-transform hover:rotate-0 duration-500 ease-out border border-gray-100">
               <div className="relative w-[280px] h-[200px] md:w-[320px] md:h-[220px] overflow-hidden bg-gray-100">
                 <Image
@@ -25,6 +25,33 @@ const ContactCTA = () => {
                   className="object-cover"
                 />
               </div>
+            </div>
+
+            <div className="flex items-center gap-6">
+              <a
+                href="https://www.instagram.com/ahmed.amine.doudech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-[#b58905] transition-colors transform hover:scale-110"
+              >
+                <Instagram className="h-7 w-7" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ahmedaminedoudech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-[#b58905] transition-colors transform hover:scale-110"
+              >
+                <Linkedin className="h-7 w-7" />
+              </a>
+              <a
+                href="https://github.com/JustPowerful"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-[#b58905] transition-colors transform hover:scale-110"
+              >
+                <Github className="h-7 w-7" />
+              </a>
             </div>
           </div>
 
