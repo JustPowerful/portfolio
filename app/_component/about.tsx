@@ -4,17 +4,17 @@ const About = () => {
   return (
     <section id="about" className="w-full py-20 px-4 md:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row gap-12 items-start">
+        <div className="flex flex-col gap-8 items-center">
           {/* Title Column */}
-          <div className="w-full md:w-1/3">
+          <div className="w-full text-center">
             <h2 className="text-4xl font-bold text-black mb-6 relative inline-block">
               About Me
-              <span className="absolute -bottom-2 left-0 w-1/2 h-1 bg-[#c49b08] rounded-full"></span>
+              <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-[#c49b08] rounded-full"></span>
             </h2>
           </div>
 
           {/* Content Column */}
-          <div className="w-full md:w-2/3 space-y-6 text-lg text-gray-700 leading-relaxed">
+          <div className="w-full max-w-4xl space-y-6 text-lg text-gray-700 leading-relaxed text-center">
             <p>
               I am a passionate Software Engineer, Freelancer, And, Consultant
               with a deep focus on creating intelligent, scalable, and

@@ -9,7 +9,8 @@ const Hero = () => {
         <div className="space-y-8 z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-black tracking-tight">
             Software Engineer & <br />
-            A Software Consultant, <br />
+            <span className="font-normal inline mt-2">A</span> Software
+            Consultant, <br />
             <span className="font-normal block mt-2">Specialized in</span>
           </h1>
 
