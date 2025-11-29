@@ -210,13 +210,13 @@ export default function ExperiencePage() {
   return (
     <main className="min-h-screen bg-[#fcfcfc]">
       {/* Hero Section */}
-      <section className="w-full py-20 md:py-32 bg-[#3d352b] text-white relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 pattern-grid-lg"></div>
+      <section className="w-full py-20 md:py-32 bg-linear-to-b from-[#f8f1e6] via-[#f2e3c8] to-[#fcfcfc] text-[#3d352b] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-30 pattern-grid-lg text-[#e0cfa6]"></div>
         <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
             Professional <span className="text-[#b58905]">Experience</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-[#5f564b] max-w-2xl mx-auto leading-relaxed">
             A curated look at the roles, projects, and stacks that shaped my
             path across startups, product studios, and freelance collaborations.
           </p>
