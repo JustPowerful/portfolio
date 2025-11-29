@@ -91,7 +91,7 @@ export default function DineSphereShowcase() {
                   className="w-full h-auto rounded-xl "
                 />
               </div>
-              <div className="relative mt-4">
+              <div className="relative mt-4 col-span-2 md:col-span-1 w-1/2 md:w-full mx-auto">
                 <Image
                   src={menuImg}
                   alt="Restaurant Menu"
@@ -185,7 +185,7 @@ export default function DineSphereShowcase() {
                     className="w-full h-auto rounded-lg "
                   />
                 </div>
-                <div className="relative mt-3">
+                <div className="relative mt-3 col-span-2 md:col-span-1 w-1/2 md:w-full mx-auto">
                   <Image
                     src={addFoodImg}
                     alt="Add Food View"
