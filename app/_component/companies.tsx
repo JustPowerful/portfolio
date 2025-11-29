@@ -5,12 +5,14 @@ import ddesign from "@/assets/companies/ddesign.jpg";
 import flexacode from "@/assets/companies/flexacode.png";
 import jetfi from "@/assets/companies/jetfi.png";
 import solugent from "@/assets/companies/solugent.png";
+import houtafresh from "@/assets/companies/houtafresh.png";
 
 const companies = [
   { name: "DDesign", logo: ddesign },
   { name: "Flexacode", logo: flexacode },
   { name: "JetFi", logo: jetfi },
   { name: "Solugent", logo: solugent },
+  { name: "Houtafresh", logo: houtafresh },
 ];
 
 const Companies = () => {
