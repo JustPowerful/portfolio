@@ -62,6 +62,7 @@ export default function SolugentShowcase() {
             </div>
             <div className="relative">
               <Image
+                placeholder="blur"
                 width={500}
                 height={500}
                 src={pcMockup1}
@@ -75,6 +76,7 @@ export default function SolugentShowcase() {
           <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
             <div className="order-2 md:order-1 relative">
               <Image
+                placeholder="blur"
                 width={500}
                 height={500}
                 src={pcMockup2}
@@ -113,6 +115,7 @@ export default function SolugentShowcase() {
             <div className="relative max-w-sm mx-auto">
               <div className="relative">
                 <Image
+                  placeholder="blur"
                   height={1000}
                   width={1000}
                   src={phoneMockup1}
@@ -144,6 +147,7 @@ export default function SolugentShowcase() {
               <div className="relative">
                 <div className="relative transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <Image
+                    placeholder="blur"
                     height={500}
                     width={500}
                     src={cardsImg}

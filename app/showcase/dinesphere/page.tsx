@@ -79,6 +79,7 @@ export default function DineSphereShowcase() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div className="relative">
                 <Image
+                  placeholder="blur"
                   height={500}
                   width={500}
                   src={mapImg}
@@ -88,6 +89,7 @@ export default function DineSphereShowcase() {
               </div>
               <div className="relative mt-8">
                 <Image
+                  placeholder="blur"
                   height={500}
                   width={500}
                   src={restaurantPageImg}
@@ -97,6 +99,7 @@ export default function DineSphereShowcase() {
               </div>
               <div className="relative mt-4 col-span-2 md:col-span-1 w-1/2 md:w-full mx-auto">
                 <Image
+                  placeholder="blur"
                   height={500}
                   width={500}
                   src={menuImg}
@@ -111,6 +114,7 @@ export default function DineSphereShowcase() {
           <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
             <div className="order-2 md:order-1 relative">
               <Image
+                placeholder="blur"
                 height={500}
                 width={500}
                 src={arScanningImg}
@@ -153,6 +157,7 @@ export default function DineSphereShowcase() {
             </div>
             <div className="relative max-w-xs mx-auto">
               <Image
+                placeholder="blur"
                 height={500}
                 width={500}
                 src={chatImg}
@@ -183,6 +188,7 @@ export default function DineSphereShowcase() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="relative">
                   <Image
+                    placeholder="blur"
                     height={500}
                     width={500}
                     src={tableLayoutImg}
@@ -201,6 +207,7 @@ export default function DineSphereShowcase() {
                 </div>
                 <div className="relative mt-3 col-span-2 md:col-span-1 w-1/2 md:w-full mx-auto">
                   <Image
+                    placeholder="blur"
                     height={500}
                     width={500}
                     src={addFoodImg}
@@ -229,6 +236,7 @@ export default function DineSphereShowcase() {
             </div>
             <div className="relative max-w-sm mx-auto">
               <Image
+                placeholder="blur"
                 height={500}
                 width={500}
                 src={paymentImg}
