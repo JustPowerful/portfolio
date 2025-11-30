@@ -8,6 +8,7 @@ import { ArrowRight } from "lucide-react";
 // Imports for assets
 import solugentLogo from "./assets/solugent.png";
 import dinesphereLogo from "./assets/dinesphere.png";
+import brainydocsLogo from "./assets/brainydocs.png";
 
 const projects = [
   {
@@ -19,6 +20,7 @@ const projects = [
     link: "/showcase/solugent",
     tags: ["Next.js", "Tailwind CSS", "Figma", "AI Integration"],
   },
+
   {
     id: "dinesphere",
     title: "DineSphere App",
@@ -27,6 +29,15 @@ const projects = [
     logo: dinesphereLogo,
     link: "/showcase/dinesphere",
     tags: ["Flutter", "Spring Boot", "AR Core", "PostgreSQL"],
+  },
+  {
+    id: "brainydocs",
+    title: "BrainyDocs",
+    description:
+      "An intelligent educational platform transforming documents into interactive learning experiences with the power of AI.",
+    logo: brainydocsLogo,
+    link: "/showcase/brainydocs",
+    tags: ["Next.js", "OpenAI API", "Tailwind CSS", "Prisma"],
   },
 ];
 
