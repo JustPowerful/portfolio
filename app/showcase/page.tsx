@@ -76,7 +76,7 @@ export default function ShowcasePage() {
                     </div>
                   </div>
 
-                  <div className="space-y-4 flex-grow">
+                  <div className="space-y-4 grow">
                     <h2 className="text-2xl font-bold text-[#3d352b] group-hover:text-[#b58905] transition-colors">
                       {project.title}
                     </h2>

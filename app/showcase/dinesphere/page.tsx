@@ -79,6 +79,8 @@ export default function DineSphereShowcase() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div className="relative">
                 <Image
+                  height={500}
+                  width={500}
                   src={mapImg}
                   alt="Nearby Cafes Map"
                   className="w-full h-auto rounded-xl "
@@ -86,6 +88,8 @@ export default function DineSphereShowcase() {
               </div>
               <div className="relative mt-8">
                 <Image
+                  height={500}
+                  width={500}
                   src={restaurantPageImg}
                   alt="Restaurant Page"
                   className="w-full h-auto rounded-xl "
@@ -93,6 +97,8 @@ export default function DineSphereShowcase() {
               </div>
               <div className="relative mt-4 col-span-2 md:col-span-1 w-1/2 md:w-full mx-auto">
                 <Image
+                  height={500}
+                  width={500}
                   src={menuImg}
                   alt="Restaurant Menu"
                   className="w-full h-auto rounded-xl "
@@ -105,6 +111,8 @@ export default function DineSphereShowcase() {
           <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
             <div className="order-2 md:order-1 relative">
               <Image
+                height={500}
+                width={500}
                 src={arScanningImg}
                 alt="AR Food Scanning"
                 className="w-full h-auto rounded-xl "
@@ -145,6 +153,8 @@ export default function DineSphereShowcase() {
             </div>
             <div className="relative max-w-xs mx-auto">
               <Image
+                height={500}
+                width={500}
                 src={chatImg}
                 alt="Restaurant Chatroom"
                 className="w-full h-auto rounded-xl "
@@ -173,6 +183,8 @@ export default function DineSphereShowcase() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="relative">
                   <Image
+                    height={500}
+                    width={500}
                     src={tableLayoutImg}
                     alt="Table Layout Management"
                     className="w-full h-auto rounded-lg "
@@ -180,6 +192,8 @@ export default function DineSphereShowcase() {
                 </div>
                 <div className="relative mt-6">
                   <Image
+                    height={500}
+                    width={500}
                     src={orderMgmtImg}
                     alt="Order Management"
                     className="w-full h-auto rounded-lg "
@@ -187,6 +201,8 @@ export default function DineSphereShowcase() {
                 </div>
                 <div className="relative mt-3 col-span-2 md:col-span-1 w-1/2 md:w-full mx-auto">
                   <Image
+                    height={500}
+                    width={500}
                     src={addFoodImg}
                     alt="Add Food View"
                     className="w-full h-auto rounded-lg "
@@ -213,6 +229,8 @@ export default function DineSphereShowcase() {
             </div>
             <div className="relative max-w-sm mx-auto">
               <Image
+                height={500}
+                width={500}
                 src={paymentImg}
                 alt="QR Payment"
                 className="w-full h-auto rounded-xl "
