@@ -3,6 +3,7 @@ import About from "./_component/about";
 import Companies from "./_component/companies";
 import Timeline from "./_component/timeline";
 import ContactCTA from "./_component/contact-cta";
+import Recommendations from "./_component/recommendations";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Companies />
       <About />
       <Timeline />
+      <Recommendations />
       <ContactCTA />
     </div>
   );
