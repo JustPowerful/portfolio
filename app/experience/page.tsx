@@ -2,7 +2,10 @@
 
 import React from "react";
 import { Marquee } from "@/components/ui/marquee";
-import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { Briefcase, Calendar, Download, MapPin } from "lucide-react";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const experiences = [
   {
@@ -163,7 +166,6 @@ const ExperienceCard = ({
             </div>
           </div>
         </div>
-
         <div className="mb-8">
           <ul className="space-y-3">
             {experience.description.map((item, index) => (
@@ -220,6 +222,13 @@ export default function ExperiencePage() {
             A curated look at the roles, projects, and stacks that shaped my
             path across startups, product studios, and freelance collaborations.
           </p>
+          <Link
+            className={cn(buttonVariants(), "mt-4 scale-120")}
+            href="/cv2025.pdf"
+          >
+            <Download className="w-5 h-5 mr-2" />
+            Download Resume
+          </Link>
         </div>
       </section>
 
