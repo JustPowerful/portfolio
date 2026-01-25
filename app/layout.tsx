@@ -5,6 +5,8 @@ import Navbar from "./_component/navbar";
 import { ContactProvider } from "./_context/contact-context";
 import ContactDialog from "./_component/contact-dialog";
 
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -17,7 +19,10 @@ export const metadata: Metadata = {
   keywords: [
     "Software Engineer",
     "Consultant",
+    "Freelance",
+    "Freelancer",
     "Portfolio",
+    "Developer",
     "Web Development",
     "AI Integration",
     "Mobile Apps",
@@ -38,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
+        <GoogleAnalytics gaId="G-PDRXQEF0JD" />
         <ContactProvider>
           <Navbar />
           {children}

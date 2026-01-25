@@ -16,18 +16,13 @@ const About = () => {
           {/* Content Column */}
           <div className="w-full max-w-4xl space-y-6 text-lg text-gray-700 leading-relaxed text-center">
             <p>
-              I am a passionate Software Engineer, Freelancer, And, Consultant
-              with a deep focus on creating intelligent, scalable, and
-              user-centric digital solutions. With expertise spanning across AI
-              integration, mobile and web development, and backend automation, I
-              help businesses transform their ideas into robust reality.
+              I&apos;m a Software Engineer & consultant focusing on AI-enabled
+              and other backend/API-driven software—web & mobile apps, backend
+              automation, and scalable solutions.
             </p>
             <p>
-              My approach combines technical precision with creative
-              problem-solving. Whether it&apos;s building a complex backend
-              infrastructure, designing an intuitive mobile app, or integrating
-              cutting-edge AI models, I am driven by the goal of delivering
-              excellence and value.
+              I prioritize practical, user-centered designs and reliable
+              implementations to deliver measurable value.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
